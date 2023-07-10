@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Paimon Paimon",
+	"version": "1.0.0",
+	"description": "Just Random Things about Paimon on Your Browser",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	]
+}
